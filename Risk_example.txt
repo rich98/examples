@@ -1,0 +1,1178 @@
+Defstan as risks
+L.01 – Information Security Policy
+Control Description
+Define and implement an information security policy, related processes, and procedures.
+
+An information security policy serves as the foundational document for an organization's security posture. It outlines the principles, rules, and practices that guide how information and systems are protected. This control also includes the development of supporting processes and procedures to ensure consistent implementation across all functions. Without a clearly defined and communicated policy framework, the organization lacks strategic direction in managing risks and protecting its digital and physical assets.
+Risk Statement
+If the organization fails to define and implement a comprehensive information security policy—along with supporting processes and procedures—it risks a fragmented or ad-hoc approach to security. This may lead to departments applying inconsistent controls, misunderstanding security requirements, or bypassing necessary precautions. Without formal guidance, key decisions may be made without assessing risks or aligning with organizational goals. As a result, vulnerabilities may go unnoticed or unmanaged, increasing the likelihood of security breaches, operational disruption, and non-compliance with regulatory or contractual obligations.
+Business Impact
+- Exposure to data breaches due to inadequate or inconsistent controls
+- Increased likelihood of non-compliance with ISO 27001, GDPR, and other regulatory frameworks
+- Reputational damage from customer or stakeholder loss of trust
+- Potential financial penalties, legal consequences, or loss of business opportunities
+- Inefficiencies in security resource allocation and duplication of efforts
+ISO Control Breached
+ISO/IEC 27001:2022 – Clause 5.2 – Information Security Policy
+Core ISO/IEC 27001:2022 Clauses:
+•	Clause 5.2 – Information Security Policy
+•	Clause 5.1 – Leadership and commitment
+•	Clause 6.1.1 – Actions to address risks and opportunities
+•	Clause 7.3 – Awareness
+•	Clause 7.5 – Documented information
+•	Clause 9.3 – Management review
+Annex A Controls (ISO/IEC 27001:2022):
+•	A.5.1 – Policies for information security
+•	A.5.2 – Information security roles and responsibilities
+•	A.6.1 – Information security objectives and planning
+•	A.6.2 – Information security in project management
+•	A.7.2 – Information security awareness, education, and training
+•	A.8.1 – Responsibilities for assets
+•	A.8.8 – Management of technical vulnerabilities
+•	A.18.1 – Compliance with legal and contractual requirements
+w
+
+This clause requires that the organization establish an information security policy that is appropriate to its purpose and supports the information security objectives. It must be communicated, reviewed, and understood throughout the organization.
+ 
+
+L.02 – Information Security Roles and Responsibilities
+Control Description
+Define and assign information security relevant roles and responsibilities.
+
+Clearly assigning roles and responsibilities for information security ensures that individuals and departments understand their duties in maintaining and protecting the organization's information assets. It provides structure, accountability, and clarity across teams, enabling an effective and coordinated security posture. When responsibilities are defined, tasks such as risk assessments, incident response, and compliance monitoring are managed efficiently and reliably.
+Risk Statement
+If the organization fails to define and assign information security relevant roles and responsibilities, it may lead to unclear roles and accountability gaps in security operations. Without clearly designated ownership, security-related tasks may be ignored or inconsistently executed. This lack of clarity can also result in delayed responses to security threats, confusion during incidents, and non-compliance with internal or regulatory requirements. As a result, the organization becomes more vulnerable to breaches and other security incidents.
+Business Impact
+- Security tasks may be neglected, increasing vulnerability to incidents
+- Reduced operational efficiency due to confusion or overlap in responsibilities
+- Delayed detection and response to security breaches
+- Higher likelihood of audit failures or regulatory non-compliance
+- Damage to reputation and stakeholder confidence
+ISO Control Breached
+Core ISO/IEC 27001:2022 Clauses:
+•	Clause 5.3 – Organizational roles, responsibilities, and authorities
+•	Clause 5.1 – Leadership and commitment
+•	Clause 7.2 – Competence
+•	Clause 7.3 – Awareness
+Annex A Controls (ISO/IEC 27001:2022):
+•	A.6.1 – Responsibilities for information security (primary)
+•	A.5.2 – Information security roles and responsibilities
+•	A.5.3 – Segregation of duties
+•	A.5.4 – Contact with authorities
+•	A.5.5 – Contact with special interest groups
+•	A.5.7 – Threat intelligence (supports proactive roles)
+•	A.6.3 – Information security planning
+•	A.7.2 – Information security awareness, education, and training
+•	A.16.1 – Responsibilities during information security incidents
+•	A.18.2 – Intellectual property rights (relating to responsible asset handling)
+
+This control requires that responsibilities for information security be clearly defined and allocated to ensure a coordinated approach and effective management of security risks across the organization.
+
+ 
+L.03 – Supplier Information Security Risk Management
+Control Description
+Define and implement a policy which addresses information security risks within supplier relationships.
+
+Managing information security risks associated with suppliers is crucial in a connected and outsourced business environment. Suppliers, contractors, and third-party service providers often have access to critical systems or sensitive information. A defined policy ensures that risks introduced by third parties are identified, assessed, and mitigated appropriately. This includes requirements for due diligence, ongoing monitoring, and incident response responsibilities within supplier agreements.
+Risk Statement
+If the organization fails to define and implement a policy which addresses information security risks within supplier relationships, it may lead to security gaps, non-compliance, or increased risk of incidents. Suppliers may not be held to appropriate security standards, which could allow vulnerabilities to propagate into the organization’s environment. Without clear expectations and oversight, the organization loses visibility and control over how sensitive information is handled externally. This can result in data breaches, service outages, and regulatory violations.
+Business Impact
+- Potential for data breaches through insecure supplier practices
+- Operational disruption due to incidents or failures in supplier systems
+- Regulatory penalties for third-party compliance failures
+- Legal consequences from inadequate supplier oversight
+- Reputational damage due to public association with a supplier’s security failure
+ISO Control Breached
+Core ISO/IEC 27001:2022 Clauses:
+•	Clause 6.1.1 – Actions to address risks and opportunities
+•	Clause 6.1.3 – Information security risk treatment
+•	Clause 8.1 – Operational planning and control
+•	Clause 9.2 – Internal audit (relevant to supplier performance reviews)
+•	Clause 9.3 – Management review (includes supplier risk insights)
+Annex A Controls (ISO/IEC 27001:2022):
+•	A.5.19 – Information security in supplier relationships (primary)
+•	A.5.20 – Addressing information security within supplier agreements
+•	A.5.21 – Managing information and communication technology (ICT) supply chain
+•	A.5.22 – Monitoring, review and change management of supplier services
+•	A.5.23 – Information security for use of cloud services
+•	A.5.17 – Information security in project management (when onboarding suppliers during new initiatives)
+•	A.6.1 – Policies for information security (covers third-party inclusion)
+•	A.15.1 – Information security in supplier relationships (legacy reference, still informative for context)
+
+
+This control area addresses the need to manage information security risks related to suppliers, including contractual agreements, security requirements, and ongoing supplier performance monitoring to ensure the continued protection of organizational assets.
+ 
+M.01 – Information Security Reporting Policy
+Control Description
+Regular and formal reporting on information security is essential for maintaining awareness, accountability, and continuous improvement within the organization. This policy should define the types of reports to be generated (e.g., risk assessments, incident logs, audit results), the frequency of reporting, responsible parties, and how the findings will be communicated to senior management. Clear reporting ensures that leadership is kept informed of current risks, compliance status, and the effectiveness of implemented security controls.
+Risk Statement
+If the organization fails to define and implement a policy which provides for regular, formal information security-related reporting, it may lead to security gaps, non-compliance, or increased risk of incidents. Without routine insights into security activities, leadership may lack critical information for decision-making, and operational teams may overlook or delay addressing vulnerabilities. Inconsistent reporting practices reduce organizational readiness and limit proactive security improvements, making the environment susceptible to avoidable threats.
+Business Impact
+- Potential for data breaches due to unidentified vulnerabilities
+- Delayed or ineffective response to security incidents
+- Non-compliance with internal policies and external regulations
+- Missed opportunities for improving security posture
+- Erosion of stakeholder confidence and reputational harm
+ISO Control Breached
+Core ISO/IEC 27001:2022 Clauses:
+•	Clause 5.1 – Leadership and commitment
+•	Clause 5.2 – Information security policy
+•	Clause 9.1 – Monitoring, measurement, analysis and evaluation
+•	Clause 9.2 – Internal audit
+•	Clause 9.3 – Management review
+•	Clause 10.1 – Continual improvement
+Annex A Controls (ISO/IEC 27001:2022):
+•	A.5.1 – Policies for information security (primary)
+•	A.5.2 – Information security roles and responsibilities
+•	A.5.6 – Information security in project management
+•	A.5.10 – Acceptable use of information and assets (requires reporting violations)
+•	A.5.13 – Information security event reporting
+•	A.5.14 – Information security incident management
+•	A.5.16 – Monitoring activities
+•	A.6.1 – Information security objectives and planning to achieve them
+•	A.6.3 – Information security in business continuity management
+•	A.8.7 – Protection against malware (requires monitoring and reporting indicators)
+•	A.12.1 – Logging and monitoring (feeds into reporting mechanisms)
+
+This control emphasizes the need for clearly defined policies that support management direction and oversight of information security activities, including the requirement for formal reporting mechanisms.
+ 
+M.02 – Pre-Access Information Security Responsibilities
+Control Description
+Establishing clear and documented responsibilities for employees and contractors before providing access to sensitive information is a critical step in protecting organizational assets. This policy ensures that individuals understand their obligations and the expected behavior regarding information security prior to being granted access. It serves to mitigate insider threats, encourage accountability, and support compliance with security policies.
+Risk Statement
+If the organization fails to define and implement a policy to detail specific employee and contractor responsibilities for information security before granting access to sensitive assets, it may lead to security gaps, non-compliance, or increased risk of incidents. Without this clarity, individuals may misuse or mishandle sensitive data, either accidentally or maliciously, due to a lack of awareness or responsibility.
+Business Impact
+- Potential for data breaches through insider misuse or negligence
+- Operational disruption caused by the mishandling of sensitive information
+- Legal and regulatory consequences from non-compliance
+- Loss of stakeholder trust and reputational damage
+- Increased risk of insider threats due to lack of documented responsibilities
+ISO Control Breached
+Primary Clause:
+•	A.5.2 – Information Security Roles and Responsibilities
+Requires that roles and responsibilities related to information security are defined and communicated to relevant individuals before access is provided.
+Related Clauses & Controls:
+•	A.6.1 – Screening
+Ensures background verification of candidates for employment or contracting includes consideration of information security.
+•	A.6.2 – Terms and Conditions of Employment
+Includes security responsibilities in employment agreements to ensure individuals are aware of their obligations.
+•	A.6.3 – Information Security Awareness, Education and Training
+Requires organizations to ensure that personnel receive appropriate awareness training before being granted access.
+•	A.5.1 – Policies for Information Security
+Ensures the organization defines and communicates a set of policies to support information security objectives.
+•	A.8.2 – Information Classification
+Reinforces the importance of protecting data based on its sensitivity before access is granted.
+•	A.9.1 – Access Control Policy
+Requires formal processes and policies to define who has access to what, and under what conditions.
+
+
+This control highlights the importance of assigning and communicating information security responsibilities to individuals before granting access to sensitive information or systems.
+ 
+L.04 – Qualified Resourcing for Information Security
+Control Description
+A policy that ensures each function is staffed with appropriately skilled and resourced personnel is essential for the successful management of information security. This includes identifying the required skills, qualifications, and experience needed for various security roles and ensuring those are matched with internal or external personnel. Security effectiveness relies not just on tools, but on the competence of the people implementing and managing them. This policy reinforces the importance of capability planning, workforce development, and security resource allocation.
+Risk Statement
+If the organization fails to define and implement a policy which ensures all functions have sufficient and appropriately qualified resources to manage the establishment, implementation and maintenance of information security, it may lead to security gaps, non-compliance, or increased risk of incidents. Inadequate resourcing can result in ineffective implementation of controls, delayed responses to threats, and increased operational risk exposure.
+Business Impact
+- Potential for data breaches due to poorly implemented or unmanaged controls
+- Delays in detecting or responding to security incidents
+- Increased audit findings or compliance failures
+- Strain on overburdened staff leading to burnout or mistakes
+- Financial and reputational costs associated with preventable incidents
+ISO Control Breached
+A.5.1 – Policies for Information Security (contextual foundation for strategic security planning)
+🔹 A.5.2 – Information Security Roles and Responsibilities
+Requires clear assignment of information security roles and responsibilities, including ensuring they are resourced with the required competence.
+🔹 Clause 5.3 – Organizational Roles, Responsibilities, and Authorities (ISO/IEC 27001 clause)
+Mandates top management to assign and support individuals with the responsibility and authority to ensure ISMS effectiveness.
+🔹 Clause 7.2 – Competence
+Requires the organization to determine, maintain, and evaluate the competence of personnel affecting ISMS performance.
+
+
+This control ensures that necessary roles and responsibilities are assigned and resourced appropriately to establish and maintain an effective information security management system.
+ 
+L.05: Define employee (including contractor) responsibilities for information security.
+Control Description
+Clearly defined responsibilities for employees and contractors regarding information security ensure that all individuals understand their roles in protecting the organization’s information assets. This includes what actions are required, what is prohibited, and the consequences for non-compliance. A policy like this supports accountability, minimizes risk, and reinforces a culture of security awareness and shared responsibility across the organization.
+Risk Statement
+If the organization fails to define employee (including contractor) responsibilities for information security, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Data loss or unauthorized access due to unclear responsibilities
+- Reduced accountability and traceability
+- Compliance violations with contractual or regulatory requirements
+- Higher likelihood of insider threats or negligence
+ISO Control Breached
+Primary Clause:
+•	A.4 – Organizational Roles, Responsibilities and Authorities
+Requires the organization to assign responsibilities and authorities for information security and ensure those assigned have the resources and competence to fulfill their roles.
+Related Clauses & Controls:
+•	A.5.1 – Policies for Information Security
+Emphasizes the need for policies to support organizational security objectives, including those around resource planning.
+•	A.5.2 – Information Security Roles and Responsibilities
+Reinforces the importance of clearly defined security roles, including the qualifications and authority associated with them.
+•	A.6.1 – Screening
+Recommends background checks and qualification verification for personnel in security-related roles.
+•	A.6.2 – Terms and Conditions of Employment
+Ensures information security responsibilities are integrated into employment terms, supporting appropriate staffing.
+•	A.6.3 – Information Security Awareness, Education and Training
+Supports workforce development by ensuring ongoing training and skills development for information security roles.
+•	A.7.2 – Competence (from ISO/IEC 27001:2022 Clause 7 – Support)
+Requires the organization to determine and ensure necessary competencies for persons doing work under its control that affects information security performance.
+ 
+M.03: Define and implement a repeatable risk assessment process.
+Control Description
+A repeatable risk assessment process enables organizations to identify, analyze, and respond to threats consistently. This control ensures risks are assessed with a standard methodology across departments and over time, supporting strategic security decisions. It also helps ensure risk visibility for new projects, vendors, or changing threat landscapes.
+Risk Statement
+If the organization fails to define and implement a repeatable risk assessment process, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unidentified vulnerabilities or emerging risks
+- Inconsistent risk treatment leading to operational inconsistencies
+- Failure to comply with legal and contractual obligations
+- Ineffective prioritization of security resources
+ISO/IEC 27001:2022 Reference
+Primary ISO Control References:
+🔹 Clause 6.1.2 – Information Security Risk Assessment
+Requires the organization to define and apply an information security risk assessment process that is consistent, repeatable, and produces comparable results.
+🔹 Clause 6.1.3 – Information Security Risk Treatment
+Requires risk treatment decisions to be based on the output of the risk assessment process.
+🔹 Clause 9.1 – Monitoring, Measurement, Analysis, and Evaluation
+Ensures that risk assessments feed into performance evaluation of the ISMS.
+🔹 A.5.4 – Contact with Special Interest Groups (Optional support for horizon scanning and industry threat monitoring)
+Implementation Recommendations
+To establish and maintain a robust risk assessment process:
+•	Define a risk assessment methodology (e.g., qualitative, semi-quantitative) that includes:
+o	Risk criteria (likelihood, impact)
+o	Risk owner assignment
+o	Evaluation thresholds
+•	Integrate risk assessments into:
+o	Project planning
+o	Vendor onboarding
+o	Change management
+•	Use a centralized risk register to document and track risks and mitigation status
+•	Assign responsibility to the Risk Owner and ISMS Lead for periodic reviews
+•	Align assessments with frameworks such as ISO 31000, NIST RMF, or FAIR
+•	Automate risk assessment workflows using GRC or ISMS tools for scalability and traceability
+
+ISO Control Breached
+Primary Clause:
+•	A.5.3 – Segregation of Duties (This appears to be a typo in your original text. Based on the context, the correct clause is likely A.8.2 – Information Security Risk Assessment)
+🔹 Corrected Control Reference:
+A.8.2 – Information Security Risk Assessment
+Requires organizations to define and apply an information security risk assessment process that is consistent, repeatable, and based on established criteria (such as risk acceptance levels and impact scales).
+Related Clauses & Controls:
+•	A.8.3 – Information Security Risk Treatment
+Ensures identified risks are treated appropriately and controls are implemented based on assessed risk levels.
+•	A.5.1 – Policies for Information Security
+Underlines the importance of policies that support a systematic risk management approach.
+•	Clause 6.1.2 – Information Security Risk Assessment (ISO/IEC 27001:2022)
+Requires the organization to establish and apply a risk assessment process to determine risks that need to be managed.
+•	Clause 6.1.3 – Information Security Risk Treatment
+Addresses the need for selecting appropriate risk treatment options based on the outcomes of the assessment.
+ 
+L.06: Define and implement a policy to provide employees and contractors with information security training.
+Control Description
+Security training ensures that all employees and contractors understand the threats they may face and how to respond appropriately. This includes awareness of phishing, data handling, device use, and secure communication. A formal training policy is critical for reducing human error—the leading cause of many breaches.
+Risk Statement
+If the organization fails to define and implement a policy to provide employees and contractors with information security training, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Increased phishing or social engineering success
+- Mishandling of sensitive data
+- Poor response to incidents or reporting delays
+- Regulatory non-compliance due to lack of training documentation
+ISO Control Breached
+Primary Clause:
+•	A.6.3 – Information Security Awareness, Education and Training
+Organizations must ensure that personnel are aware of information security risks relevant to their role and receive appropriate education and training.
+Related Clauses & Controls:
+•	A.5.2 – Information Security Roles and Responsibilities
+Reinforces that personnel should be made aware of their security-related duties.
+•	Clause 7.2 – Competence (ISO/IEC 27001:2022)
+Requires the organization to determine the necessary competence for individuals performing work under its control that affects information security.
+•	Clause 7.3 – Awareness
+Ensures that personnel are aware of the information security policy, their contribution to its effectiveness, and the implications of not conforming to requirements.
+•	A.6.1 – Screening (linked to onboarding awareness)
+Ensures background checks and security understanding for new hires.
+
+L.07: Define and implement a policy for ensuring sensitive information is clearly identified.
+Control Description
+Labeling and classifying sensitive information allows appropriate security measures to be applied based on the risk level. This control supports the organization in applying encryption, access controls, and handling procedures according to the data’s classification.
+Risk Statement
+If the organization fails to define and implement a policy for ensuring sensitive information is clearly identified, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Inadvertent exposure of confidential data
+- Lack of consistency in data protection
+- Difficulty proving compliance with data regulations
+- Elevated legal and reputational risk
+ISO Control Breached
+Primary Clause:
+•	A.8.2 – Information Classification
+Organizations must classify information based on legal requirements, business needs, and risk, and ensure that appropriate handling, labeling, and protection measures are applied.
+Likely Source of Confusion: You referenced A.07, which may have been intended to point to A.8 – Information Security Asset Management, specifically A.8.2 for classification. Here's the corrected structure.
+Related Clauses & Controls:
+•	A.8.1 – Responsibility for Assets
+Ensures that assets, including information, are accounted for and have clearly assigned owners responsible for classification and protection.
+•	A.5.1 – Policies for Information Security
+Requires that appropriate policies, including data classification, support security objectives.
+•	Clause 6.1.3 – Information Security Risk Treatment
+Data classification supports risk-based decisions on which controls to apply to which information assets.
+•	Clause 7.5 – Documented Information
+Organizations must manage information in a manner that ensures confidentiality, integrity, and availability—supported by proper classification.
+ 
+M.04: Define and implement a policy for storing, accessing, and handling sensitive information securely.
+Control Description
+This control focuses on the technical and procedural safeguards to ensure that sensitive data is protected during its lifecycle. It includes measures such as encryption, secure file sharing, physical access restrictions, and defined handling protocols.
+Risk Statement
+If the organization fails to define and implement a policy for storing, accessing, and handling sensitive information securely, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Breaches of confidential or proprietary data
+- Increased audit findings due to poor data handling
+- Loss of customer trust and competitive advantage
+- Financial penalties and legal costs
+ISO Control Breached
+Primary Clauses & Controls:
+•	A.8.2 – Information Classification
+Classification informs how sensitive data should be stored and handled securely.
+•	A.9.1 – Access Control Policy
+Requires organizations to limit access to information based on business and security requirements (e.g., least privilege, need-to-know).
+•	A.10.1 – Cryptographic Controls
+Specifies encryption for data at rest and in transit to protect sensitive information.
+•	A.11.1 – Physical Security and Entry Controls
+Addresses protection of physical assets storing sensitive information.
+•	A.11.2 – Equipment Security
+Ensures protection of information stored on and processed by equipment.
+•	A.13.2 – Information Transfer
+Covers secure transfer of information between parties or systems.
+•	A.11.2.7 – Secure Disposal or Reuse of Equipment
+Ensures information is securely erased or devices are properly sanitized before reuse or disposal.
+•	Clause 7.5 – Documented Information
+Requires the organization to control information with appropriate levels of confidentiality, integrity, and availability.
+
+ 
+M.05 – Data Loss Prevention (DLP)
+Control Description
+A data loss prevention (DLP) policy establishes the processes, tools, and best practices required to ensure that sensitive data is not lost, misused, or accessed by unauthorized individuals. This policy typically covers data discovery and classification, content inspection (to identify sensitive information), and data flow monitoring across endpoints, networks, and cloud environments. By implementing DLP measures, the organization can detect and prevent unauthorized attempts to exfiltrate data—intentionally or accidentally—and maintain compliance with relevant regulations and standards.
+Risk Statement
+If the organization fails to define and implement a policy for data loss prevention, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Confidential data may be inadvertently disclosed or deliberately exfiltrated
+- Financial losses and penalties from regulatory bodies (e.g., GDPR, HIPAA) if data leaks occur
+- Damage to customer and stakeholder trust, undermining brand reputation
+- Increased operational costs to remediate breaches and implement reactive measures
+ISO Control Breached
+•  A.8.2 – Information Classification
+Helps DLP systems understand which data requires the highest levels of protection.
+•  A.9.1 – Access Control Policy
+Ensures that only authorized users can access sensitive data.
+•  A.10.1 – Cryptographic Controls
+Supports DLP by encrypting data, preventing its unauthorized use if intercepted or exfiltrated.
+•  A.13.2 – Information Transfer
+Addresses the protection of data during transmission across networks or to external parties.
+•  Clause 6.1.3 – Information Security Risk Treatment
+Identifies DLP as part of the strategy to mitigate risks associated with data leakage.
+
+
+This control requires organizations to apply measures to prevent the unauthorized disclosure, modification, removal, or destruction of information, ensuring that critical data remains safe and is handled according to defined security requirements.
+ 
+M.06 – Off-line Off-site Data Backups
+Control Description
+A robust backup policy entails establishing clear procedures and schedules for regularly backing up critical data to secure, off-line, and off-site locations. This includes defining the frequency of backups, retention periods, encryption standards for stored data, and verification testing. Off-line backups remain inaccessible from normal network pathways, protecting them from ransomware attacks or unauthorized modifications. Off-site storage ensures that backups remain intact even if the primary site experiences a disaster.
+Risk Statement
+If the organization fails to define, implement and test a policy for regular off-line back-up of data off-site, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Inability to recover critical data following system failures or ransomware attacks
+- Extended downtime and lost productivity during incidents
+- Regulatory penalties for failing to protect sensitive data
+- Reputational harm if data integrity or availability is compromised
+ISO Control Breached
+Correct ISO Control Reference:
+🔹 A.8.13 – Backup
+Organizations must implement backup procedures to protect against loss of data and ensure availability and integrity in case of physical or technical incidents.
+Related ISO Controls:
+•	A.8.1 – Responsibility for Assets
+Ensures that backup data is treated as an organizational asset with defined ownership and protection.
+•	A.10.1 – Cryptographic Controls
+Ensures encryption of backup data both in storage and during transfer to protect confidentiality.
+•	A.17.1 – Information Security Continuity
+Links backup procedures to broader business continuity and disaster recovery planning.
+•	Clause 6.1.3 – Risk Treatment
+Supports the implementation of backup controls as a treatment for availability and integrity risks.
+
+
+This control mandates organizations to implement appropriate backup procedures to protect against data loss or corruption, and to ensure data availability in the event of system failures, disasters, or security incidents.
+ 
+
+L.08 – Access Control Policy
+Control Description
+A policy for controlling access to information and information processing facilities outlines how user permissions and access levels are determined, granted, monitored, and revoked. The policy may cover both physical and logical access, ensuring that only authorized individuals or systems can interact with sensitive data or critical systems. This approach helps safeguard against unauthorized use, accidental damage, or deliberate misuse of information assets.
+Risk Statement
+If the organization fails to define and implement a policy to control access to information and information processing facilities, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unauthorized access to sensitive data, leading to data breaches
+- Operational disruption if critical systems are compromised
+- Regulatory or legal consequences due to mismanagement of confidential information
+- Damage to stakeholder trust and corporate reputation
+ISO Control Breached
+rimary Clause:
+🔹 A.9 – Access Control
+Requires the implementation of policies and procedures to ensure authorized user access and prevent unauthorized access to information systems and services.
+Key Related Controls within A.9:
+•	A.9.1.1 – Access Control Policy
+Organizations must define and document an access control policy based on business and security requirements.
+•	A.9.2 – User Access Management
+Includes user registration, access provisioning, removal, and privilege management.
+•	A.9.3 – User Responsibilities
+Ensures users understand their responsibilities in maintaining access security (e.g., password hygiene, session locking).
+•	A.9.4 – System and Application Access Control
+Enforces technical restrictions on access to systems and data (e.g., MFA, session timeouts, network segmentation).
+Other Related ISO Controls:
+•	A.5.2 – Information Security Roles and Responsibilities
+Ensures access responsibilities are clearly defined and assigned.
+•	A.6.1 – Screening
+Supports secure access assignment by verifying personnel prior to granting system access.
+•	A.12.4 – Logging and Monitoring
+Requires that access to critical systems be logged and reviewed.
+
+
+This control requires that organizations implement a formal policy governing user access rights, ensuring information is only accessible by authorized personnel and preventing unauthorized access or disclosures.
+ 
+M.07 – Asset Ownership and Access Control
+Control Description
+To protect valuable organizational resources, it is essential to identify owners for each information asset, such as data, applications, and infrastructure components. Asset owners hold the responsibility of classifying their assets, defining access permissions, and ensuring that security controls are properly applied. By clearly establishing and documenting asset ownership, the organization enhances accountability and ensures that decisions about asset protection are made by those most knowledgeable about its criticality and risk profile.
+Risk Statement
+If the organization fails to ensure it has identified asset owners and that those owners control access to their assets, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Improper or outdated access rights due to lack of clear ownership
+- Difficulty applying consistent or targeted security measures
+- Legal and regulatory penalties if unauthorized data access occurs
+- Increased likelihood of costly data leaks or system compromises
+ISO Control Breached
+Correct ISO Control Reference:
+🔹 A.8.1 – Responsibility for Assets
+Requires organizations to identify information assets and assign owners who are accountable for their proper use and protection.
+Related Controls:
+•	A.8.2 – Information Classification
+Asset owners are responsible for classifying information according to sensitivity and business value.
+•	A.9.1 – Access Control Policy
+Ties asset ownership to access control decisions, including the granting, reviewing, and revocation of access rights.
+•	A.5.2 – Information Security Roles and Responsibilities
+Requires clear definition and communication of responsibilities, including asset-related roles.
+•	A.5.1 – Policies for Information Security
+Supports asset governance by ensuring relevant policies are in place for data and systems.
+•	Clause 7.5 – Documented Information
+Requires control and protection of information, supporting accountability and asset documentation.
+
+This control emphasizes the importance of identifying assets and assigning responsibility for their protection. Having clear asset owners ensures accountability for security measures and proper access control.
+ 
+L.09 – Cyber Essentials Scheme Plus Certification
+Control Description
+Cyber Essentials Scheme Plus Certification provides a recognized baseline of cybersecurity measures and indicates that an organization maintains key controls to protect against common cyber threats. Renewing this certification annually involves regular assessments, system reviews, and updates to ensure continuous alignment with evolving threats and standards. By maintaining this certification, the organization demonstrates its commitment to safeguarding information, meeting contractual obligations, and maintaining trust with clients, partners, and regulators.
+Risk Statement
+If the organization fails to maintain annually renewed Cyber Essentials Scheme Plus Certification, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Reduced credibility and trust from clients and partners
+- Potential disqualification from certain tenders or contracts
+- Increased vulnerability to common cyber threats
+- Greater likelihood of regulatory scrutiny or penalties
+ISO Control Breached
+🔹 A.5.31 – Security Requirements for the Use of Suppliers
+Requires organizations to ensure third-party suppliers meet appropriate security requirements—which can include certifications like Cyber Essentials or others.
+🔹 A.5.1 – Policies for Information Security
+Supports the establishment of policies requiring adherence to external frameworks or certifications.
+🔹 A.6.3 – Information Security Awareness, Education, and Training
+CE+ mandates evidence of user awareness and control implementation.
+🔹 A.12.1 – Operational Procedures and Responsibilities
+Aligns with CE+ controls related to patch management, malware protection, and system configuration.
+🔹 Clause 10 – Improvement
+Maintaining CE+ supports continual improvement of the Information Security Management System (ISMS) through regular assessments and updates.
+
+
+Maintaining recognized certifications like Cyber Essentials Scheme Plus aligns with the need for organizations to regularly evaluate and meet security requirements, reinforcing adherence to best practices and regulatory standards.
+ 
+H.01 – Patch Management Metrics and Performance Assessment
+Control Description
+Organizations need a robust patch management process to ensure that software vulnerabilities are identified and addressed promptly. Maintaining patching metrics involves tracking the speed and effectiveness of patch deployment, including the percentage of systems patched within specified timeframes and any exceptions or delays. Regularly assessing patching performance against policy helps validate whether critical security updates are prioritized, identifies areas of non-compliance, and reduces the likelihood of exploitable security weaknesses in the IT environment.
+Risk Statement
+If the organization fails to maintain patching metrics and assess patching performance against policy, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Higher risk of compromise through known software vulnerabilities
+- Disruption to operations from unpatched system exploits
+- Penalties for failing to comply with regulatory or contractual requirements
+- Erosion of customer trust if security incidents are linked to poor patch management
+ISO Control Breached
+Correct ISO Control Mapping:
+🔹 A.8.10 – Management of Technical Vulnerabilities
+Requires timely identification, assessment, and remediation of technical vulnerabilities—patch management is a key element of this control.
+Additional Relevant Controls:
+•	A.12.1 – Operational Procedures and Responsibilities
+Supports patch management as part of routine IT and security operations.
+•	A.12.6 – Technical Vulnerability Management (superseded in ISO 27001:2022 by A.8.10)
+Legacy reference that reinforces the importance of monitoring vendor updates and applying patches as needed.
+•	Clause 9.1 – Monitoring, Measurement, Analysis and Evaluation
+Organizations must monitor and evaluate the performance of their ISMS—including patching processes—to ensure effectiveness and alignment with objectives.
+•	Clause 10 – Improvement
+Patching metrics help identify nonconformities and support continual improvement of security processes.
+
+Under this requirement, organizations must systematically manage information security. Robust patch management, backed by performance metrics, is key to ensuring vulnerabilities are addressed promptly and effectively, maintaining overall security posture and compliance.
+ 
+H.02 – Secure Wireless Authentication
+Control Description
+Wireless networks are often a prime target for attackers because they can be accessed from outside the physical perimeter of an organization. Ensuring wireless connections are authenticated means implementing secure protocols (such as WPA2-Enterprise or WPA3), unique credentials, and robust encryption methods. Such measures prevent unauthorized individuals from accessing the network, intercepting sensitive data, or using the network as a launching point for additional attacks.
+Risk Statement
+If the organization fails to ensure wireless connections are authenticated, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unauthorized network access, enabling eavesdropping or data theft
+- Malicious use of the corporate network to launch attacks on other systems
+- Compliance violations if sensitive data is exposed through insecure wireless
+- Loss of trust from customers, partners, and regulators
+ISO Control Breached
+🔹 A.8.20 – Use of Network Services
+Ensures that network services, including wireless, are secured based on access control policies and authenticated use.
+🔹 A.8.21 – Security of Network Services
+Requires that security mechanisms (such as encryption and authentication) be implemented for all types of network services.
+🔹 A.9.4 – System and Application Access Control
+Supports secure authentication at the system and service level, including wireless endpoints.
+Additional Relevant Clauses:
+•	A.5.1 – Policies for Information Security
+Ensures that the organization has established policies to guide implementation of controls such as wireless security.
+•	A.6.1 – Network Security Management (relevant for overall wireless architecture)
+Addresses the protection of information in networks and the supporting infrastructure.
+
+
+This control ensures that organizations implement policies and procedures to address security requirements, including authentication mechanisms for wireless networks, to safeguard the confidentiality, integrity, and availability of information.
+ 
+L.10 – Policy for Removable Media Exchange
+Control Description
+Removable media (e.g., USB drives, portable hard disks, optical media) are widely used for transferring data, but they pose significant security risks if not effectively controlled. A well-defined policy specifies acceptable usage, encryption requirements, approval processes, and scanning protocols to prevent unauthorized access or introduction of malicious code. This control helps ensure that sensitive information remains protected and that the organization meets compliance obligations when exchanging data via removable devices.
+Risk Statement
+If the organization fails to define and implement a policy to control the exchanging of information via removable media, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Exposure of sensitive data if media are lost, stolen, or mishandled
+- Propagation of malware onto corporate networks
+- Non-compliance with data protection regulations
+- Significant remediation costs and reputational harm in the event of incidents
+ISO Control Breached
+Correct ISO Control Reference:
+🔹 A.8.11 – Use of Removable Media
+Organizations must implement policies and controls to regulate the use of removable media, reducing the risk of data loss, malware, and unauthorized access.
+Related Controls:
+•	A.8.9 – Information Transfer
+Regulates how information is exchanged, including via physical devices.
+•	A.8.10 – Management of Technical Vulnerabilities
+Ensures scanning and protective controls are applied to devices that may introduce threats.
+•	A.9.4 – System and Application Access Control
+Supports access restrictions related to removable media usage.
+•	A.5.1 – Policies for Information Security
+Requires the establishment of security policies covering portable data handling.
+
+
+This control focuses on the implementation of measures governing the usage of removable media, limiting unauthorized data transfers and protecting information from improper handling or compromise.
+ 
+L.11 – IT Estate Scope and Configuration Management
+Control Description
+Maintaining a comprehensive and up-to-date record of the organization's information technology estate is critical for effective risk management, incident response, and compliance. This includes documenting all hardware, software, network components, and any relevant configuration details such as versions, patch levels, and dependencies. A clear and accurate inventory helps ensure that vulnerabilities can be identified and remediated promptly, unauthorized changes are detected, and consistency is maintained across the environment.
+Risk Statement
+If the organization fails to record and maintain the scope and configuration of the information technology estate, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Increased difficulty in identifying and patching vulnerabilities
+- Higher chance of misconfigurations or unauthorized changes
+- Challenges in meeting compliance and audit requirements
+- Longer recovery times and greater disruption during incidents
+ISO Control Breached
+🔹 A.5.9 – Inventory of Information and Other Associated Assets
+Requires organizations to identify, inventory, and assign ownership to assets, ensuring they are managed and protected appropriately.
+🔹 A.8.9 – Configuration Management
+Requires implementation of processes to manage configurations of hardware and software assets to maintain integrity and prevent unauthorized changes.
+Related Controls:
+•	A.5.1 – Policies for Information Security
+Supports the need for asset and configuration management policies.
+•	A.8.10 – Management of Technical Vulnerabilities
+Relies on accurate configuration and asset data to assess and remediate vulnerabilities.
+•	A.12.1 – Operational Procedures and Responsibilities
+Emphasizes documented procedures, including those for configuration control and asset management.
+•	A.5.10 – Acceptable Use of Information and Associated Assets
+Ties usage policies to defined assets within the configuration management system.
+
+
+This control requires organizations to maintain an asset inventory and ensure that configurations are managed effectively, reducing the risk posed by undocumented or insecure IT assets.
+ 
+M.08 – Policy for Handling Unpatched Vulnerabilities
+Control Description
+Even with robust patch management processes, there are situations where software vendors have not yet issued patches or countermeasures for discovered vulnerabilities. A policy for handling such vulnerabilities ensures that the organization evaluates the severity, probability, and potential impact of the threat. It may involve applying temporary mitigations, segregating affected systems, or closely monitoring for exploit attempts. This structured approach allows the organization to manage unpatched vulnerabilities effectively, reducing the risk of exploitation while awaiting a permanent fix.
+Risk Statement
+If the organization fails to define and implement a policy to assess vulnerabilities identified for which there are no countermeasures (e.g., a patch) available, undertake risk assessment and management, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Heightened exposure to zero-day attacks or exploits of known but unpatched vulnerabilities
+- Inability to demonstrate due diligence if an incident occurs
+- Operational disruptions from emergency responses or unplanned mitigations
+- Loss of customer trust and increased regulatory scrutiny
+ISO Control Breached
+A.8.10 – Management of Technical Vulnerabilities
+Requires organizations to obtain information about technical vulnerabilities, assess their exposure, and take timely action to reduce risk—including cases where no official fix exists.
+Additional Related Controls:
+•	A.8.13 – Backup
+Supports recovery planning and business continuity in case vulnerable systems are exploited.
+•	A.12.1 – Operational Procedures and Responsibilities
+Reinforces the need for procedures that include handling exceptions and emergency fixes.
+•	Clause 6.1.3 – Information Security Risk Treatment
+Informs risk-based decision-making when no patch is available.
+•	Clause 9.1 – Monitoring, Measurement, Analysis and Evaluation
+Metrics and assessments support tracking the impact and effectiveness of compensating controls.
+
+
+This control emphasizes the importance of identifying, assessing, and mitigating vulnerabilities in a timely manner. For those without an available patch, organizations must implement compensating controls and monitor risk levels until a permanent solution is provided.
+ 
+
+M.09 – Secure Administrative Access with Multi-Factor Authentication
+Control Description
+Administrative accounts hold elevated privileges and can perform critical tasks such as installing software, modifying system configurations, and accessing sensitive data. Ensuring that administrative access is conducted over secure protocols (e.g., SSH, HTTPS) and protected by multi-factor authentication (MFA) significantly reduces the risk of credential theft and unauthorized infiltration. This approach strengthens security by layering additional factors beyond just a password, such as one-time tokens or biometric checks, which attackers find more difficult to compromise.
+Risk Statement
+If the organization fails to undertake administration access over secure protocols, using multi-factor authentication, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Heightened risk of unauthorized access to core systems
+- Greater susceptibility to credential-based attacks (e.g., password spraying, phishing)
+- Increased likelihood of regulatory fines and reputational harm
+- Complicated incident response and greater operational disruption if admin credentials are compromised
+ISO Control Breached
+A.8.23 – Secure Authentication
+Requires the use of strong authentication mechanisms, including multi-factor authentication, especially for privileged access and high-risk systems.
+Additional Related Controls:
+•	A.8.15 – Privileged Access Rights
+Mandates that the use of privileged access be restricted and controlled, supporting role-based access for administrative accounts.
+•	A.8.28 – Protection of Log Information
+Ensures administrative activity is logged and monitored for signs of unauthorized access or abuse.
+•	A.8.27 – Secure System Engineering Principles
+Reinforces the need for secure configuration practices, including those that govern administrative access.
+•	Clause 6.1.3 – Information Security Risk Treatment
+Supports the use of MFA as a compensating control to mitigate risks related to privileged account compromise.
+
+This control addresses the need for secure configurations and use of strong authentication methods in system administration
+ 
+M.10 – Network Monitoring and Security Event Log Review
+Control Description
+A policy to monitor network behavior and regularly review computer security event logs enables the proactive detection of anomalies, suspicious activities, and potential security incidents. This includes gathering logs from firewalls, intrusion detection systems, endpoint security solutions, and critical server systems, then correlating these data points to spot patterns or trends that deviate from normal operations. Through vigilant monitoring, organizations can detect emerging threats, respond quickly to contain incidents, and fulfill regulatory or audit requirements.
+Risk Statement
+If the organization fails to define and implement a policy to monitor network behaviour and review computer security event logs for indications of potential incidents, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Delayed or missed detection of cyber threats, increasing damage potential
+- Reduced ability to investigate, attribute, and remediate incidents
+- Non-compliance with regulations requiring security log reviews (e.g., PCI-DSS, GDPR)
+- Loss of stakeholder trust due to frequent or severe breaches
+ISO Control Breached
+🔹 A.8.22 – Monitoring Activities
+Requires organizations to monitor systems and networks to detect anomalous behavior or potential security events.
+🔹 A.8.28 – Protection of Log Information
+Ensures logs are protected from unauthorized access and tampering.
+🔹 A.8.29 – Logging
+Requires logging of user activities, exceptions, and information security events to support accountability and forensic investigations.
+🔹 A.5.25 – Response to Information Security Incidents
+Requires organizations to establish processes to respond to incidents—enabled by effective detection and monitoring mechanisms.
+🔹 Clause 9.1 – Monitoring, Measurement, Analysis and Evaluation
+Supports the continual evaluation of monitoring systems to ensure effectiveness in threat detection and mitigation.
+
+
+This control highlights the necessity of active monitoring and systematic log reviews, ensuring that security-related events are captured, analyzed, and acted upon to minimize the impact of potential incidents.
+ 
+H.03 – Enhanced Network Monitoring Beyond Signature-Based Detection
+Control Description
+Traditional signature-based detection systems (e.g., Intrusion Detection Systems reliant on known attack signatures) are valuable but limited to identifying known threats. To address emerging or zero-day threats that do not match an existing signature, organizations must supplement signature-based detection with advanced monitoring techniques. This can include anomaly-based intrusion detection, behavioral analytics, and machine learning models that evaluate network traffic patterns to detect deviations from baseline activity. By implementing these complementary approaches, the organization improves its ability to detect sophisticated attacks and reduce dwell time of hidden adversaries.
+Risk Statement
+If the organization fails to deploy network monitoring techniques which complement traditional signature-based detection, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Increased likelihood of advanced persistent threats (APTs) going undetected
+- Delayed response to attacks using novel or modified tactics
+- Greater potential for regulatory infractions if incidents remain undiscovered
+- Reputation damage and loss of trust from customers and partners
+ISO Control Breached
+A.8.22 – Monitoring Activities
+Organizations must monitor networks and systems to identify unusual activity that could indicate a security incident—supporting behavioral and anomaly-based detection methods.
+🔹 A.8.29 – Logging
+Requires logging of activities to support behavioral baselining and detection of anomalies.
+🔹 A.5.25 – Response to Information Security Incidents
+Calls for timely identification and response to incidents, which is facilitated by proactive, enhanced monitoring.
+🔹 A.8.27 – Security Monitoring (if defined in organizational policy or ISMS context)
+Encourages comprehensive visibility into security-relevant events through various detection techniques, including ML and behavior-based approaches.
+
+
+This control area emphasizes the importance of having comprehensive detection capabilities, including methods that go beyond reliance on signature-based systems. By integrating anomaly detection and behavior analysis, organizations reduce the risk of sophisticated, unknown threats remaining undetected.
+ 
+H.04 – Application Firewalls for Critical Servers
+Control Description
+Application firewalls, often known as Web Application Firewalls (WAFs) when protecting web servers, add a layer of security by inspecting and validating incoming and outgoing traffic at the application level. By placing these firewalls in front of critical servers, organizations can detect and block malicious requests that bypass traditional network firewalls, such as SQL injection attempts, cross-site scripting, or other protocol-specific exploits. Deploying an application firewall ensures that only properly formatted and authorized traffic reaches the server, reducing the risk of data breaches or system compromises.
+Risk Statement
+If the organization fails to place application firewalls in front of critical servers to verify and validate the traffic going to the server, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Increased likelihood of successful application-level attacks (e.g., SQL injection, cross-site scripting)
+- Possible compromise of critical systems housing sensitive data
+- Higher operational and financial costs from breach investigation and remediation
+- Damage to organizational reputation and trust among stakeholders
+ISO Control Breached
+🔹 A.8.26 – Application Security Requirements
+Requires organizations to ensure applications are designed and operated with appropriate security controls to mitigate identified risks—including web application protections.
+🔹 A.8.21 – Security of Network Services
+Ensures that all network services, including application-layer traffic, are protected by appropriate controls such as firewalls.
+🔹 A.8.23 – Secure Authentication (for WAFs integrating with SSO or identity controls)
+Relevant when WAFs enforce access controls at the edge.
+🔹 A.8.22 – Monitoring Activities
+Supports logging and alerting features integrated into WAFs for threat detection and auditability.
+
+
+This control requires organizations to protect critical servers by implementing security measures that operate at the application layer, ensuring that malicious or malformed requests are detected and blocked before reaching sensitive systems.
+ 
+H.05 – Network-Based Intrusion Detection Systems (IDS)
+Control Description
+Network-based Intrusion Detection Systems (IDS) are crucial for monitoring and analyzing network traffic at critical entry and exit points (ingress and egress). By continuously inspecting traffic for known malicious patterns, vulnerabilities, or anomalies, IDS sensors help detect unauthorized access attempts, policy violations, or malicious payloads. Regular updates with the latest vendor signatures ensure the system can effectively recognize emerging threats. The deployment of IDS sensors at network boundaries complements other security controls by providing early detection and alerting of suspicious activities.
+Risk Statement
+If the organization fails to deploy network-based Intrusion Detection System (IDS) sensors on ingress and egress points within the network and update regularly with vendor signatures, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Reduced visibility into network threats or suspicious traffic
+- Delayed or ineffective response to attacks and breaches
+- Violations of industry regulations mandating monitoring of critical network segments
+- Increased costs for incident containment, recovery, and potential legal liabilities
+ISO Control Breached
+🔹 A.8.22 – Monitoring Activities
+Organizations must monitor networks and systems to detect anomalous behavior, such as unauthorized access or malware activity—directly supporting IDS deployment.
+🔹 A.8.29 – Logging
+Supports the collection and correlation of events from IDS to build a clear incident timeline.
+🔹 A.5.25 – Response to Information Security Incidents
+Incident response processes rely on IDS-generated alerts to detect, analyze, and contain breaches effectively.
+🔹 A.8.21 – Security of Network Services
+Ensures that protective mechanisms are in place to secure the use of external and internal network services, including intrusion detection layers.
+ISO/IEC 27001:2022 controls related to IDS are found under A.8.22, A.8.29, and A.5.25.)
+This control demands that organizations put measures in place to detect and analyze potential threats at network boundaries, using systems like IDS that can promptly alert security teams to potential intrusions or breaches.
+L.12 – User Account Access Rights Management
+Control Description
+Managing user account access rights involves establishing and enforcing policies and procedures to ensure that individuals only have access to the systems, applications, and data necessary for their roles. This includes onboarding procedures (provisioning access), ongoing monitoring (regular reviews and modifications), and offboarding procedures (revoking access) when roles change or when employment ends. By implementing an effective account management policy, the organization can minimize the risk of unauthorized access and protect sensitive information from internal and external threats.
+Risk Statement
+If the organization fails to define and implement a policy to manage the access rights of user accounts, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Excessive privileges increasing the likelihood of accidental or deliberate misuse of data
+- Difficulty in attributing suspicious or malicious activity to specific users
+- Greater vulnerability to insider threats and lateral movement by attackers
+- Non-compliance with regulations requiring defined access controls
+ISO Control Breached
+🔹 A.8.15 – Privileged Access Rights
+Requires privileged access to be restricted, justified, and controlled to reduce misuse risks.
+🔹 A.8.16 – Use of Secret Authentication Information
+Ensures users manage credentials (e.g., passwords, tokens) securely as part of account access.
+🔹 A.8.17 – Information Access Restriction
+Requires controls to limit access to information and functions based on business and security needs.
+🔹 A.8.18 – Access Rights
+Mandates that access rights be regularly reviewed and adjusted in line with employment changes or business needs.
+Additional Related Clauses:
+•	A.5.2 – Information Security Roles and Responsibilities
+Access governance is tied to clearly defined user responsibilities.
+•	A.5.9 – Inventory of Information and Other Associated Assets
+Access must be mapped to information assets and their owners.
+
+
+This control requires that organizations ensure appropriate allocation and revocation of user privileges, protecting the organization’s information assets by limiting access to only those who need it.
+ 
+M.11 – Monitoring User Account Usage and Managing Access Changes
+Control Description
+A comprehensive policy for monitoring user account usage and managing changes in access rights ensures that individuals retain only the necessary permissions for their job functions and that any potential misuse or anomalies can be detected. This policy outlines how user activities are logged, reviewed, and escalated if suspicious behavior is identified. It also defines a process for promptly adjusting access whenever a user’s role changes, or when they join or leave the organization. This helps to mitigate the risk of unauthorized access, insider threats, and unintentional data exposure.
+Risk Statement
+If the organization fails to define and implement a policy to monitor user account usage and to manage changes of access rights, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unclear or outdated user permissions leading to excessive access rights
+- Delays in identifying and responding to unauthorized or malicious activities
+- Non-compliance with auditing and regulatory requirements
+- Increased damage potential from insider threats or compromised credentials
+ISO Control Breached
+🔹 A.8.15 – Privileged Access Rights
+Ensures elevated access is controlled, monitored, and limited to specific, justified use cases.
+🔹 A.8.18 – Access Rights
+Requires that access rights be reviewed regularly and updated based on employment changes.
+🔹 A.8.29 – Logging
+Supports capturing user activities to allow monitoring, audit trails, and forensics.
+🔹 A.8.22 – Monitoring Activities
+Requires network and system usage to be monitored for anomalies, which includes user account usage tracking.
+Supporting Clause:
+•	Clause 9.1 – Monitoring, Measurement, Analysis and Evaluation
+Reinforces the need for performance indicators, analysis, and proactive monitoring—including access-related behaviors.
+
+
+Under this control, organizations must maintain and regularly review user accounts, ensuring that access rights align with job responsibilities 
+ 
+
+M.12 – Policy for Remote Access Control
+Control Description
+A remote access policy defines the conditions and mechanisms through which users, contractors, and third parties can securely connect to the organization's networks and systems from external locations. This typically includes the use of secure protocols (e.g., VPN, SSH, TLS), multi-factor authentication, endpoint security checks, and monitoring of remote sessions. By formalizing these requirements, the organization ensures that remote connections do not introduce undue risk and that sensitive data remains protected, regardless of where the access originates.
+Risk Statement
+If the organization fails to define and implement a policy to control remote access to networks and systems, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unauthorized or insecure remote connections, leading to data exposure
+- Increased vulnerability to brute-force attacks and credential theft
+- Regulatory non-compliance due to inadequate access controls
+- Significant disruption if remote access points are exploited by attackers
+ISO Control Breached
+A.8.20 – Use of Network Services
+Requires the organization to secure the use of network services, especially those involving remote connections.
+🔹 A.8.21 – Security of Network Services
+Ensures remote access mechanisms are protected with adequate controls like encryption and authentication.
+🔹 A.8.15 – Privileged Access Rights
+Applies to users accessing sensitive systems remotely with elevated privileges—requiring strict controls.
+🔹 A.8.23 – Secure Authentication
+Mandates use of secure authentication methods (e.g., MFA) for remote access.
+
+This control mandates that organizations establish guidelines for secure remote connections, ensuring the confidentiality, integrity, and availability of critical data and systems.
+ 
+
+ L.13 – Password Confidentiality Policy
+Control Description
+A policy to maintain the confidentiality of passwords is essential to protect user accounts and systems from unauthorized access. This policy should cover password creation requirements (length, complexity), secure storage practices (e.g., hashing), prohibition of password sharing, regular password updates, and user awareness training. Additionally, the policy should enforce the use of password managers and multifactor authentication where appropriate. Ensuring the confidentiality of passwords helps mitigate the risk of compromised accounts, which are often the initial vector in security breaches.
+Risk Statement
+If the organization fails to define and implement a policy to maintain the confidentiality of passwords, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unauthorized access to sensitive systems or data through compromised credentials
+- Greater success rate for phishing, brute force, or credential stuffing attacks
+- Inability to meet regulatory or audit requirements for credential protection
+- Loss of customer trust following an incident stemming from poor password hygiene
+ISO Control Breached
+A.8.16 – Use of Secret Authentication Information
+Requires users to follow practices that maintain the confidentiality, integrity, and appropriate use of passwords and similar secrets.
+🔹 A.8.23 – Secure Authentication
+Mandates strong authentication mechanisms, including password confidentiality, to prevent unauthorized access.
+Supporting Controls:
+•	A.5.2 – Information Security Roles and Responsibilities
+Assigns responsibility for enforcing password policy and access control standards.
+•	A.8.15 – Privileged Access Rights
+Requires enhanced password protection for privileged accounts.
+
+This control mandates secure practices for managing passwords, ensuring they are created, stored, and handled in a manner that protects them from unauthorized disclosure or misuse.
+ 
+M.13 – Authorized Software Usage Policy
+Control Description
+A policy to control the use of authorized software ensures that only vetted, licensed, and secure applications are installed and used within the organization’s environment. This policy outlines procedures for requesting, evaluating, approving, and maintaining software, and prohibits the use of unauthorized or pirated software, which may pose serious security risks. Enforcing software control helps to prevent malware infections, unauthorized data access, and operational inconsistencies, while also ensuring compliance with licensing agreements and regulatory standards.
+Risk Statement
+If the organization fails to define and implement a policy to control the use of authorized software, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Malware or backdoor exposure through unauthorized software
+- Legal liability due to software license violations
+- Operational inefficiencies and incompatibilities
+- Increased difficulty in managing software updates and vulnerabilities
+ISO Control Breached
+🔹 A.8.24 – Use of Privileged Utility Programs
+Ensures that specialized software tools (e.g., admin tools, debuggers) are controlled and used only when authorized.
+🔹 A.8.25 – Use of Secure Coding Practices (for custom-developed applications)
+Ensures software is developed and maintained securely, and only approved development tools/libraries are used.
+🔹 A.8.30 – Installation of Software on Operational Systems
+Mandates that software installations are controlled and authorized to reduce the risk of compromise.
+🔹 A.5.10 – Acceptable Use of Information and Associated Assets
+Supports the enforcement of software usage rules in line with organizational policy and regulatory requirements.
+
+
+This control requires that only authorized software is used and that its use is actively managed, ensuring systems are secure, compliant, and free from unverified or dangerous applications.
+ 
+H.06 – Software Installation and Change Control Policy
+Control Description
+A policy to control the installation of and changes to software on systems within the network is essential to prevent unauthorized applications and reduce the risk of introducing vulnerabilities or instability. This policy should define who is authorized to install software, the approval and review process for changes, the criteria for secure software sourcing, and the required testing and rollback procedures. By enforcing structured controls around software deployment and updates, organizations ensure system integrity, reduce attack surfaces, and maintain operational consistency.
+Risk Statement
+If the organization fails to define and implement a policy to control installations of and changes to software on any systems on the network, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Increased risk of malware or vulnerabilities introduced through unauthorized software
+- Disruption of services due to incompatible or poorly tested updates
+- Breaches of software licensing and regulatory compliance
+- Loss of system integrity and auditability across the environment
+ISO Control Breached
+🔹 A.8.30 – Installation of Software on Operational Systems
+Ensures software installation is controlled, authorized, and conducted in a manner that maintains system security.
+🔹 A.8.27 – Secure System Engineering Principles
+Reinforces secure design and engineering of systems, including structured and secure changes to software components.
+🔹 A.8.26 – Application Security Requirements
+Requires controls to ensure software meets security criteria, including during installation or updates.
+🔹 A.8.9 – Configuration Management
+Ensures that systems remain in a known, secure state through controlled configuration and change processes.
+
+This control requires that software changes and installations be performed securely and with proper oversight, ensuring the stability, security, and compliance of IT systems.
+ 
+M.14 – Network Border Information Flow Control Policy
+Control Description
+A policy to control the flow of information through network borders is essential for protecting the internal network from unauthorized access, data exfiltration, and external threats. This policy defines how traffic is filtered, inspected, and controlled at boundary points using tools such as firewalls, proxies, gateways, and intrusion detection/prevention systems. It ensures that only permitted, encrypted, and validated traffic passes in and out of the network, reducing the organization’s exposure to malicious activity and data leakage.
+Risk Statement
+If the organization fails to define and implement a policy to control the flow of information through network borders, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unauthorized access to or exfiltration of sensitive data
+- Introduction of malware or command-and-control traffic into internal systems
+- Compliance failures related to data sovereignty and protection laws
+- Loss of visibility and control over digital communication channels
+ISO Control Breached
+🔹 A.8.20 – Use of Network Services
+Requires organizations to ensure network services—including external connections—are appropriately secured and monitored.
+🔹 A.8.21 – Security of Network Services
+Mandates protection of information communicated over networks, especially at perimeter boundaries.
+🔹 A.8.22 – Monitoring Activities
+Supports traffic inspection and detection of anomalous data flows through border points.
+🔹 A.8.9 – Configuration Management
+Ensures perimeter devices (e.g., firewalls, proxies, gateways) are securely configured and maintained.
+
+
+This control emphasizes the importance of securing communication and data flow at the boundaries of the organization's network, ensuring appropriate measures are in place to monitor and restrict unauthorized or risky traffic.
+H.07 – Network Boundary Traffic and Content Inspection
+Control Description
+Controlling the flow of traffic through network boundaries and policing content involves monitoring and analyzing inbound and outbound traffic for signs of malicious activity or indicators of compromise. This includes deploying technologies such as next-generation firewalls, deep packet inspection, intrusion prevention systems (IPS), and behavior-based detection tools to identify threats like malware, data exfiltration attempts, or unauthorized communication. Proactive content filtering ensures that known attack patterns and suspicious behaviors are blocked at the perimeter, reducing the risk of internal compromise and data breaches.
+Risk Statement
+If the organization fails to control the flow of traffic through network boundaries and police content by looking for attacks and evidence of compromised machines, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unchecked threats infiltrating or leaving the organization
+- Increased dwell time for malware or attackers within the network
+- Legal and regulatory consequences for failing to secure sensitive data
+- Business interruption and financial loss from undetected intrusions
+ISO Control Breached
+A.8.21 – Security of Network Services
+Requires implementation of security controls at the network level, particularly for external and internal boundaries.
+🔹 A.8.22 – Monitoring Activities
+Mandates monitoring of networks and systems to detect anomalous activity, including inspection at perimeter devices.
+🔹 A.8.20 – Use of Network Services
+Ensures that only secure and approved network services are utilized, supporting restricted and monitored communications.
+🔹 A.8.29 – Logging
+Requires logging of events for incident detection and forensic investigation, including logs from firewalls and IPS.
+
+This control addresses the need to monitor network boundaries actively and apply content inspection techniques to detect and respond to threats in a timely and effective manner.
+ 
+H.08 – Network Segmentation and Zoning
+Control Description
+Designing networks with security countermeasures such as segmentation or zoning involves dividing the network into distinct security zones based on trust levels, sensitivity, or function. This design limits lateral movement of attackers and helps isolate sensitive systems from less secure areas. Network segmentation can be enforced using VLANs, firewalls, access control lists, and software-defined networking. By compartmentalizing critical assets and enforcing strict controls at the boundaries, organizations can reduce attack surfaces and improve incident containment.
+Risk Statement
+If the organization fails to design networks incorporating security countermeasures, such as segmentation or zoning, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Increased risk of attackers gaining broad access once inside the network
+- Inability to contain and isolate threats during a security incident
+- Compliance violations due to lack of sufficient access controls and separation of duties
+- Greater operational impact during breaches or malware outbreaks
+ISO Control Breached
+A.8.22 – Monitoring Activities
+Requires the organization to monitor networks and systems to identify abnormal activity and potential security events, supporting traffic and content inspection at boundaries.
+🔹 A.8.21 – Security of Network Services
+Ensures that security measures are applied to control the flow of information across network boundaries.
+🔹 A.8.29 – Logging
+Captures log data from perimeter devices (e.g., firewalls, IPS) to support incident detection and forensic investigation.
+🔹 A.5.25 – Response to Information Security Incidents
+Relies on data collected through network inspection tools to initiate timely response to threats.
+
+
+This control requires organizations to ensure secure network architecture and traffic control mechanisms, including the use of segmentation or zoning to limit unauthorized access and improve monitoring and containment.
+ 
+H.09 – Data Loss Prevention (DLP) at Egress Points
+Control Description
+Data Loss Prevention (DLP) solutions at egress points are essential for inspecting outbound traffic to detect and prevent the unauthorized transmission of sensitive information. These tools analyze content for keywords, patterns, and data classifications that align with regulatory or business-critical requirements. By deploying DLP technologies at network boundaries such as email gateways, web proxies, and file transfer systems, organizations can automatically block or quarantine suspicious transmissions, ensuring that confidential data does not leave the network without proper authorization or encryption.
+Risk Statement
+If the organization fails to ensure Data Loss Prevention at egress points to inspect the contents of information and take appropriate action to prevent its inadvertent or malicious release, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Exposure of confidential or regulated data to unauthorized parties
+- Fines and penalties under data protection regulations (e.g., GDPR, HIPAA)
+- Damage to brand reputation and customer trust
+- Increased incident response and legal costs
+ISO Control Breached
+A.8.11 – Use of Removable Media (if data is leaving via physical means)
+Ensures appropriate controls are in place to prevent unintentional loss through physical transfer.
+🔹 A.8.20 – Use of Network Services
+Requires organizations to secure outbound traffic via network services, including web and email gateways.
+🔹 A.8.21 – Security of Network Services
+Mandates protection of data in transit across networks, including egress filtering and inspection.
+🔹 A.8.22 – Monitoring Activities
+Supports real-time and historical inspection of outbound traffic for DLP enforcement.
+🔹 A.5.14 – Information Transfer
+Requires procedures and controls to protect information transferred both within and outside the organization.
+
+
+This control requires organizations to implement safeguards for the secure exchange and protection of information, particularly when it leaves the organization's boundary, ensuring that sensitive data is not inadvertently or maliciously disclosed.
+ 
+L.14 – Pre-Employment Credential Verification Policy
+Control Description
+A policy to verify the credentials of individuals prior to employment is a critical component of personnel security. It ensures that candidates possess the qualifications, experience, and integrity they claim, and helps prevent insider threats. Verification may include checking identity documents, educational records, employment history, references, criminal background checks, and relevant certifications. Establishing these checks as a formal, mandatory process prior to granting access to systems or sensitive information reduces the risk of hiring individuals who may pose a security risk.
+Risk Statement
+If the organization fails to define and implement a policy for verifying an individual’s credentials prior to employment, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Increased likelihood of insider threats or fraudulent access
+- Reputational harm from employing individuals with false or harmful backgrounds
+- Legal and regulatory consequences for failing to perform due diligence
+- Compromise of sensitive data due to unvetted personnel
+ISO Control Breached
+A.6.1 – Screening
+Requires background verification checks on all candidates for employment, in accordance with relevant laws, regulations, and proportional to the role's sensitivity and risk level.
+Supporting ISO Clauses and Controls:
+•	A.5.2 – Information Security Roles and Responsibilities
+Helps ensure that roles with access to sensitive information are filled by qualified, vetted individuals.
+•	Clause 7.2 – Competence
+Reinforces the need for validation of qualifications, training, and experience relevant to information security.
+
+This control requires organizations to perform background verification checks on all candidates for employment, proportional to the business requirements, the classification of the information they will access, and the risks involved.
+ 
+M.15 – Security Vetting Checks for Employees
+Control Description
+A policy for applying security vetting checks to employees ensures that individuals with access to sensitive systems or data are appropriately screened to assess trustworthiness and reduce insider risk. This includes performing background investigations, criminal record checks, credit checks (where applicable), and verifying professional qualifications or affiliations. Such vetting is particularly important for roles with elevated privileges, access to classified information, or responsibility for critical infrastructure. The vetting process should be documented, consistent, and proportional to the sensitivity of the role.
+Risk Statement
+If the organization fails to define and implement a policy for applying security vetting checks to employees, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Elevated risk of insider threats due to unvetted personnel
+- Potential for regulatory violations in high-trust or classified environments
+- Loss of customer and stakeholder trust in the organization's hiring practices
+- Increased likelihood of access misuse or data leakage
+ISO Control Breached
+A.6.1 – Screening
+Requires background verification checks for candidates and employees, proportionate to the role’s responsibilities and information access.
+Related Supporting Clauses:
+•	Clause 7.2 – Competence: Verifies qualifications and suitability for assigned roles
+•	A.5.2 – Information Security Roles and Responsibilities: Ensures that personnel with specific access responsibilities meet pre-defined criteria
+•	A.8.15 – Privileged Access Rights: Further supports enhanced vetting for users with elevated privileges
+
+This control emphasizes the need for appropriate screening of employees before granting access to information or systems, especially in roles where elevated access or sensitive information is involved.
+ 
+L.15 – Non-Recriminatory Security Violation Reporting
+Control Description
+An effective process that allows employees and contractors to report information security violations without fear of reprisal is a key element of a strong security culture. This process should be clearly documented, accessible, and include safeguards to protect the identity and interests of those reporting in good faith. It should also outline the mechanisms for reporting (e.g., anonymous hotline, internal portal), how reports are handled and investigated, and assurance of non-retaliation. This encourages early detection and resolution of policy breaches before they escalate.
+Risk Statement
+If the organization fails to define and implement a process for employees and contractors to report violations of information security policies and procedures without fear of recrimination, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Delayed awareness or response to security policy violations
+- Undetected insider threats or recurring incidents
+- Erosion of employee trust in organizational governance
+- Failure to meet legal or regulatory requirements around whistleblower protection
+ISO Control Breached
+A.5.24 – Reporting Information Security Weaknesses
+Encourages all users to report observed or suspected information security weaknesses promptly and without fear of retaliation.
+🔹 A.5.25 – Response to Information Security Incidents
+Supports structured, timely investigation and response to reported issues, including those raised confidentially or anonymously.
+Related Clauses:
+•	Clause 7.4 – Communication
+Ensures appropriate, clear internal communication processes, including secure reporting channels.
+•	Clause 10.1 – Nonconformity and Corrective Action
+Encourages proactive reporting and response to deviations, supporting continuous improvement and organizational learning.
+
+
+This control mandates organizations to establish channels for reporting security issues, including the ability to do so without fear of retaliation, ensuring timely identification and remediation of risks.
+ 
+L.16 – Disciplinary Process for Security Policy Violations
+Control Description
+A formal disciplinary process for handling violations of information security policies ensures accountability and promotes adherence to security practices. The policy should outline the types of violations, the investigative procedures, possible sanctions based on the severity of the breach, and an appeals process. It must be communicated to all employees and contractors, integrated into the organization’s HR and security governance framework, and applied consistently. A clear disciplinary process acts as a deterrent and reinforces the organization’s commitment to maintaining a secure information environment.
+Risk Statement
+If the organization fails to define and implement a disciplinary process to take action against employees who violate information security policies or procedures, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Repeated violations due to lack of enforcement or consequences
+- Reduced trust in security governance by stakeholders
+- Greater risk of internal threats and malicious activity
+- Non-compliance with legal or regulatory frameworks requiring disciplinary enforcement
+ISO Control Breached
+🔹 A.6.2 – Disciplinary Process
+Requires that a disciplinary process be in place and enforced for individuals who have committed information security breaches, proportionate to the violation and in line with applicable laws.
+Supporting ISO Clauses and Controls:
+•	A.5.2 – Information Security Roles and Responsibilities
+Reinforces role-based accountability for policy adherence.
+•	Clause 7.3 – Awareness and Training
+Ensures users understand their responsibilities and the consequences of violations.
+•	Clause 10.1 – Nonconformity and Corrective Action
+Supports a culture of improvement through structured consequences and remediation.
+
+
+This control emphasizes that organizations must take appropriate disciplinary action against employees who breach security policies or procedures, in order to reinforce policy compliance and mitigate risks associated with non-adherence.
+ 
+M.16 – Personnel Risk Assessments and Qualification Verification
+Control Description
+Conducting personnel risk assessments for all employees and contractors, especially those with information security responsibilities, ensures that individuals are appropriately vetted for their roles. This process includes evaluating the individual’s background, experience, security awareness, and professional qualifications. By aligning responsibilities with proven competence, the organization strengthens its defense against both intentional and unintentional threats. This control helps in identifying roles that require additional training or access restrictions and supports a proactive approach to insider risk management.
+Risk Statement
+If the organization fails to undertake personnel risk assessments for all employees and contractors and ensure those with specific responsibilities for information security have sufficient appropriate qualifications and appropriate levels of appropriate experience, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Inadequately trained staff handling sensitive or critical systems
+- Elevated risk of security incidents due to human error or negligence
+- Regulatory findings from non-compliance with due diligence expectations
+- Organizational exposure to insider threats
+ISO Control Breached
+A.6.3 – Competence
+Requires organizations to ensure that personnel performing tasks that impact information security are competent, based on appropriate education, training, and experience.
+Supporting Clauses and Controls:
+•	Clause 7.2 – Competence
+Requires organizations to determine and maintain the necessary competence of people doing work under their control.
+•	A.6.1 – Screening
+Supports background checks that contribute to personnel risk assessments.
+•	A.8.15 – Privileged Access Rights
+Implies that individuals with elevated access require verified expertise and ongoing monitoring.
+
+
+This control emphasizes the importance of assessing and validating the suitability of individuals for their roles, particularly where access to sensitive information or critical responsibilities are involved.
+ 
+M.17 – Securing Organisational Assets Upon Termination
+Control Description
+A policy to secure organisational assets when individuals cease employment is critical to prevent unauthorized access or misuse of information post-departure. The policy should ensure timely revocation of access rights, return of devices, recovery of ID cards, and secure handover of any data or credentials. Exit checklists and collaboration between HR, IT, and security teams are essential to ensuring that all assets are accounted for and that no residual access remains. Proper implementation of this policy reduces the risk of data leaks, sabotage, or accidental exposure following termination.
+Risk Statement
+If the organization fails to define and implement a policy to secure organisational assets when individuals cease to be employed by your organisation, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Unauthorized access to corporate systems or information by former staff
+- Theft, loss, or misuse of physical and digital assets
+- Delays in system de-provisioning leading to compliance failures
+- Financial and reputational damage from post-employment incidents
+ISO Control Breached
+A.6.4 – Termination and Change of Employment
+Requires implementation of security measures to ensure that access rights are removed and assets returned upon termination or change of employment.
+Supporting Controls and Clauses:
+•	A.8.18 – Access Rights
+Mandates timely revocation of access based on employment status changes.
+•	A.5.2 – Information Security Roles and Responsibilities
+Ensures offboarding responsibilities are clearly assigned and documented.
+•	Clause 7.3 – Awareness and Training
+Supports user awareness of termination responsibilities (e.g., return of equipment, nondisclosure obligations).
+
+
+This control emphasizes the need for processes that ensure information security during and after the termination of employment, including asset recovery and access revocation procedures.
+ 
+L.17 – Incident Management Policy (Detection, Resolution, Recovery)
+Control Description
+An incident management policy provides a structured and consistent approach for identifying, reporting, assessing, resolving, and recovering from information security incidents. The policy must outline roles and responsibilities, communication protocols, escalation procedures, and post-incident analysis. Detection mechanisms such as monitoring and alerting systems should be implemented to ensure timely identification of incidents. Resolution steps should define containment, eradication, and remediation activities, while recovery should restore affected services and incorporate lessons learned into future preparedness. A robust incident management process minimizes damage and ensures compliance with regulatory reporting requirements.
+Risk Statement
+If the organization fails to define and implement an incident management policy, which must include detection, resolution, and recovery, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Delayed response to incidents leading to greater damage and data loss
+- Inability to meet legal or regulatory reporting obligations
+- Extended downtime and operational disruption
+- Erosion of customer and stakeholder trust due to poor incident handling
+ISO Control Breached
+A.5.25 – Response to Information Security Incidents
+Organizations must define, implement, and communicate a process for timely and effective incident response.
+🔹 A.5.26 – Learning from Information Security Incidents
+Requires organizations to analyze incidents to identify trends and apply lessons learned to improve future response.
+🔹 A.5.27 – Collection of Evidence
+Ensures that when appropriate, incidents are investigated and evidence is collected in a manner suitable for legal or disciplinary action.
+🔹 Clause 6.1.2 – Information Security Risk Assessment (indirectly)
+Supports identification of high-risk scenarios requiring predefined incident response protocols.
+
+
+This control requires organizations to implement procedures for detecting, responding to, and recovering from security incidents, ensuring that lessons learned are incorporated into continuous improvement processes.
+ 
+H.10 – Proactive Verification of Security Controls
+Control Description
+Proactively verifying that security controls are functioning as intended is essential to maintaining an effective security posture. This involves regularly testing, auditing, and assessing controls to ensure they mitigate risks as designed. Methods such as vulnerability assessments, penetration testing, security control reviews, automated compliance tools, and red/blue team exercises help evaluate the effectiveness of existing controls. Verification ensures that misconfigurations, outdated defenses, or gaps introduced through changes in the environment are identified and addressed in a timely manner.
+Risk Statement
+If the organization fails to proactively verify security controls are providing the intended level of security, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Hidden weaknesses in security controls go undetected until exploited
+- False sense of security leads to inadequate incident response preparedness
+- Increased compliance risk from untested controls
+- Financial and reputational loss from preventable security failures
+ISO Control Breached
+ISO/IEC 27001:2022 – A.10 – Validation of Controls
+
+This control requires organizations to regularly review and validate the effectiveness of their security controls, ensuring they perform as expected and continue to meet business and regulatory requirements.
+ 
+
+H.11 – Ensuring Availability of Critical Assets During a Crisis
+Control Description
+A policy to ensure the continued availability of critical assets and information during a crisis is essential for business continuity. This includes identifying critical systems and data, implementing redundancy and failover strategies, and maintaining backup and recovery procedures. The policy should also define roles, responsibilities, crisis communication protocols, and periodic testing of continuity plans. The goal is to minimize disruption and ensure the organization can maintain essential operations and services even in the face of natural disasters, cyberattacks, or other significant events.
+Risk Statement
+If the organization fails to define and implement a policy to ensure the continued availability of critical asset(s)/information during a crisis, it may lead to security gaps, non-compliance, or increased risk of incidents, resulting in potential for data breaches, operational disruption, regulatory penalties, or reputational damage.
+Business Impact
+- Inability to deliver critical services during disruptions
+- Loss of revenue, customer trust, and market position due to downtime
+- Regulatory or contractual breaches resulting from unavailability
+- High recovery costs and prolonged recovery times
+ISO Control Breached
+A.5.31 – Validation of Information Security Controls
+Requires organizations to regularly validate that security controls operate as intended, and continue to effectively meet security objectives and risk treatment expectations.
+Supporting ISO Clauses and Controls:
+•	Clause 9.1 – Monitoring, Measurement, Analysis, and Evaluation
+Requires systematic performance evaluation of controls and ISMS effectiveness.
+•	A.8.9 – Configuration Management
+Supports verification of whether controls are correctly applied following changes.
+•	A.8.28 – Protection of Log Information
+Reinforces monitoring as part of ongoing validation.
+
+This control emphasizes the requirement for organizations to implement appropriate measures to ensure the continued availability of essential services and data during and after disruptive events, maintaining resilience and operational effectiveness.
+
