@@ -20,6 +20,22 @@ Core Clauses Referenced:
 •	Clause 7.3 – Awareness
 •	Clause 7.5 – Documented Information
 •	Clause 9.3 – Management Review
+
+
+
+
+
+
+Business Impact
+Security Vulnerabilities: No security updates from Microsoft leaves systems exposed to malware, ransomware, and data breaches.
+
+Compliance Risks: Operating on unsupported software may violate data protection laws or industry-specific compliance requirements (e.g., GDPR, HIPAA, PCI-DSS).
+
+Operational Disruption: Incompatibility with newer applications and hardware can lead to system failures, productivity loss, and increased IT maintenance burden.
+
+Reputation Damage: A security incident or compliance breach linked to legacy systems can damage brand trust and customer confidence.
+
+Increased Costs: Emergency patching, breach recovery, or fines can be significantly more expensive than proactive upgrades.
 Relevant Annex A Controls:
 •	A.5.1 – Policies for Information Security
 •	A.5.2 – Information Security Roles and Responsibilities
