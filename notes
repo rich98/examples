@@ -1,3 +1,15 @@
-Despite the implementation of climate control systems, environmental monitoring, and staff awareness measures, a residual risk remains due to unfavourable environmental conditions such as temperature fluctuations, humidity, and unauthorized ventilation in sensitive areas like server rooms. These factors can lead to malfunctions of technical components, damage to storage media, or even health risks to personnel. The impact of such incidents is assessed as major, particularly in the context of IT infrastructure and employee safety, while the likelihood is considered possible, especially during transitional weather seasons. Current controls are generally effective, but human error and sudden environmental changes introduce uncertainty. Therefore, the residual risk is classified as medium.
+Although technical and organizational controls such as user authentication, access management policies, and audit logging are in place, a residual risk remains concerning the unauthorised use of devices and systems. Even systems with strong identification and authentication mechanisms can be compromised, particularly if security credentials are lost or misused, or if authorisations are assigned incorrectly or not updated promptly. The impact of such an event is considered major, especially in cases involving unauthorised administration, which can result in configuration errors, data manipulation, or serious system outages. The likelihood is assessed as possible, given the persistent risk of human error, social engineering, and lapses in access control processes. The current control environment is effective, but not immune to breakdowns in complex or fast-changing operational contexts, resulting in a residual risk rated as medium.
 
-This level of risk is accepted based on current operational requirements and control capabilities. Ongoing efforts such as regular HVAC maintenance, automated alerts for climate deviations, and staff training on ventilation policies are in place to manage and contain the risk. The situation will be reviewed regularly, especially during seasonal transitions or after any incident related to environmental controls.
+To mitigate this risk, the following measures are in place:
+
+Implementation of the principle of least privilege, ensuring users have only the access they need.
+
+Multi-factor authentication (MFA) for all administrative and high-risk accounts.
+
+Regular access reviews and audits, including timely revocation of unused or unnecessary accounts.
+
+Role-based access control (RBAC) to streamline and standardize permissions.
+
+Security awareness training for staff on credential hygiene and phishing prevention.
+
+Logging and real-time monitoring of privileged account activity and system changes.
